@@ -1,3 +1,6 @@
+references:
+  - v+
+  - master
 name-template: Draft YYYYMMDDリリース # 次バージョンのタグ名をタイトルに設定
 tag-template: $NEXT_PATCH_VERSION # 次バージョンのタグ名を設定
 change-template: "- $TITLE (#$NUMBER) @$AUTHOR" # PR情報のテンプレート
