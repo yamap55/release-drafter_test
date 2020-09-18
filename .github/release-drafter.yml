@@ -1,7 +1,6 @@
 name-template: Draft YYYYMMDDリリース # 次バージョンのタグ名をタイトルに設定
 tag-template: "v$NEXT_PATCH_VERSION" # 次バージョンのタグ名を設定
 change-template: "- $TITLE (#$NUMBER) @$AUTHOR" # PR情報のテンプレート
-version-template: "v$MAJOR.$MINOR.$PATCH"
 template: | # リリースの内容テンプレート
   # hogehoge v$NEXT_PATCH_VERSION リリースノート
   ## 新規追加
